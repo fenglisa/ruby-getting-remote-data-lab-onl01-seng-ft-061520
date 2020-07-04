@@ -18,7 +18,7 @@ class GetRequester
   def parse_json
     people = JSON.parse(self.get_response_body)
     people.collect do |key,value|
-      :key => value
+      :key => "#{value}
     end
   end
 end
