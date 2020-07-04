@@ -21,5 +21,4 @@ class GetRequester
       program["agency"]  
     end
   end
-  end
 end
