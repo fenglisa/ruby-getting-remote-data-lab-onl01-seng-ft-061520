@@ -17,9 +17,8 @@ class GetRequester
   
   def parse_json
     people = JSON.parse(self.get_response_body)
-    people.collect do |e|
-      data = []
-      data << e
+    people.collect do |data|
+      data
     end
   end
 end
